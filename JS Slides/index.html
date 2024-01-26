@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sticky Navbar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <img id="logo" src="img/logo.png" alt="">
+        <ul class="nav_link">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about">About</a></li>
+          </ul>
+    </nav>
+    <div id="slide_container">
+        <div class="slide">
+            <img src="img/a2.jpg" alt="">
+            <div class="caption">Caption Text 1</div>
+        </div>
+        <div class="slide">
+            <img src="img/a3.png" alt="">
+            <div class="caption">Caption Text 2</div>
+        </div>
+        <div class="slide">
+            <img src="img/a5.jpg" alt="">
+            <div class="caption">Caption Text 3</div>
+        </div>
+        <div class="slide">
+            <img src="img/a6.jpg" alt="">
+            <div class="caption">Caption Text 4</div>
+        </div>
+        <span class="arrow pre"  onclick="controller(-1)">&#60;</span>
+        <span class="arrow next" onclick="controller(1)">&#62;</span>
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>
