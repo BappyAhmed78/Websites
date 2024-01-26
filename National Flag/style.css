@@ -1,0 +1,55 @@
+
+#parent{
+    background-color: green;
+    width: 443px;
+    height: 253px;
+    position: absolute;
+    top: 58px;
+    left: 203px;
+}
+
+#child{
+   background-color: red;
+   width: 148px;
+   height: 138px;
+   border-radius: 50%;
+   position: absolute;
+   top: 54px;
+   left: 141px;
+}
+#stand{
+    background-color: #000000db;
+    height: 536px;
+    width: 12px;
+    position: absolute;
+    top: 44px;
+    left: 191px;
+    border-radius: 6px;
+}
+#Bappy{
+  height: 21px;
+  width: 118px;
+  background-color:#6a1d1d;
+  position:absolute;
+  top: 574px;
+  left: 136px;
+  border-radius: 5px;
+}
+#hossain{
+    height: 21px;
+    width: 181px;
+    background-color:#6a1d1d;
+    position:absolute;
+    top: 593px;
+    left: 102px;
+    border-radius: 5px;
+}
+#bap{
+    height: 21px;
+    width: 214px;
+    background-color:#6a1d1d;
+    position:absolute;
+    top: 614px;
+    left: 85px;
+    border-radius: 5px;
+}
